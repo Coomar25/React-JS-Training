@@ -1,0 +1,23 @@
+.moviecontainer{
+    width: 250px;
+    height: 425px;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+}
+
+.moviecontainer .poster{
+    /* background-color: aqua; */
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    margin: 2rem;
+}
+
+.poster img{
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+}

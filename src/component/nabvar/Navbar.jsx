@@ -59,7 +59,7 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item mx-4">
-                                <NavLink style={navLinksStyles} class="nav-link" to="/login">Login</NavLink>
+                                <NavLink style={navLinksStyles} class="nav-link" to="/register">Register</NavLink>
                             </li>
 
 

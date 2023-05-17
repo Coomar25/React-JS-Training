@@ -22,7 +22,9 @@ import {
   Route,
 } from "react-router-dom"
 
-import Login from './component/login/Login'
+import Register from './component/registerUser/Register'
+import Edit from './component/registerUser/Edit'
+import LoginPage from './component/registerUser/LoginPage'
 
 
 
@@ -62,7 +64,8 @@ const App = () => {
         <Route path="/exampleprops" element={< ExampleProps />} />
         <Route path="/todoproject" element={< Textbox />} />
         <Route path="/usestateapifetch" element={<UseStateAPIFetch />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        {/* <Route path="/dashboard" element={<Home />} /> */}
 
         {/* Nested Route */}
         {/* <Route path="/contact" element={<Contact />} >
@@ -80,6 +83,9 @@ const App = () => {
         {/* Dynamic Routing */}
         <Route path="/userdetails" element={<UserDetails />} />
         <Route path="/userdetails/:userid" element={<UserDetails />} />
+        <Route path="/edit/:id" element={<Edit />} />
+
+        <Route path='/loginPage' element={<LoginPage />} />
 
       </Routes>
     </Router >
